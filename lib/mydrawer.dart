@@ -26,10 +26,12 @@ class MyDrawer extends StatelessWidget {
               title: 'FLUTTER',
               url: "https://fluterrlist.herokuapp.com",
             ),
+            Divider(),
             ListMenu(
               title: 'CODE IGNITER',
               url: "https://codeigniterrlist.herokuapp.com/",
             ),
+            Divider(),
             ListMenu(
               title: 'LARAVEL',
               url: "https://laravellist.herokuapp.com/",

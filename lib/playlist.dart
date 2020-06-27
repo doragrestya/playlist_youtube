@@ -24,7 +24,8 @@ class _PlaylistState extends State<Playlist> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
-        backgroundColor: Colors.lightBlue,
+        backgroundColor: Colors.teal,
+        centerTitle: true,
       ),
       drawer: MyDrawer(),
       body: FutureBuilder(
